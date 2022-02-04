@@ -145,10 +145,7 @@ const NavbarmainNoUser = () => {
                     </Link>
 
 
-//                     <Link to='/#' style={{ textDecoration: 'none' }}>
-//                         <Typography sx={Navbar ? style.navlinkScroll : style.navlink} >{language.HEADER_Category}</Typography>
-//                     </Link>
-
+//                    
 
                     <Link component={RLink} to={"/shop"}  style={{ textDecoration: 'none' }} onClick={windowScroll}>
                         <Typography sx={Navbar ? style.navlinkScroll : style.navlink}>{language.HEADER_Shop}</Typography>
@@ -170,10 +167,7 @@ const NavbarmainNoUser = () => {
                         <NotificationsIcon sx={style.icon} />
                     </IconButton>
 
-                    {/* SEARCH here
-                    <IconButton sx={Navbar ? style.iconContainerScroll : style.iconContainer}>
-                        <SearchIcon sx={style.icon} />
-                    </IconButton> */}
+                 }
 
                     {/*MENU here*/}
                     <IconButton sx={Navbar ? style.iconContainerScroll : style.iconContainer}
