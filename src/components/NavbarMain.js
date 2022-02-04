@@ -216,10 +216,6 @@ const Navbarmain = () => {
                     </Link>
 
 
-//                     <Link to='/#' style={{ textDecoration: 'none' }}>
-//                         <Typography sx={Navbar ? style.navlinkScroll : style.navlink} >{language.HEADER_Category}</Typography>
-//                     </Link>
-
 
                     <Link component={RLink} to={"/shop"}  style={{ textDecoration: 'none' }} onClick={windowScroll}>
                         <Typography sx={Navbar ? style.navlinkScroll : style.navlink}>{language.HEADER_Shop}</Typography>
