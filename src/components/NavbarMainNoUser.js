@@ -145,7 +145,7 @@ const NavbarmainNoUser = () => {
                     </Link>
 
 
-//                    
+                
 
                     <Link component={RLink} to={"/shop"}  style={{ textDecoration: 'none' }} onClick={windowScroll}>
                         <Typography sx={Navbar ? style.navlinkScroll : style.navlink}>{language.HEADER_Shop}</Typography>
