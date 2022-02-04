@@ -1,0 +1,33 @@
+.aws-btn {
+    --slider-height-percentage: 38% !important;
+    --slider-transition-duration: 769ms;
+    --organic-arrow-thickness: 1px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 37px;
+    --organic-arrow-color: #6b6b6b !important;
+    --control-button-width: 0%;
+    --control-button-height: 0%;
+    --control-button-background: transparent !important;
+    --control-bullet-color: #367837 !important;
+    --control-bullet-active-color: #b3dd88 !important;
+    --loader-bar-color: #19a93d !important;
+    --loader-bar-height: 10px !important;
+}
+
+
+
+.slick-prev {
+    z-index: 100;
+    left: -15px !important;
+}
+
+.slick-next {
+    z-index: 100;
+    right: -5px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px !important;
+}
+

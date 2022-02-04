@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../src/assets/font/Poppins.woff);
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../src/assets/font/Bold.woff);
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(../src/assets/font/Futura.woff);
+}
+
+@font-face {
+  font-family: "Semibold";
+  src: url(../src/assets/font/Semibold.woff);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
