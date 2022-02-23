@@ -167,7 +167,7 @@ const NavbarmainNoUser = () => {
                         <NotificationsIcon sx={style.icon} />
                     </IconButton>
 
-                 }
+                 
 
                     {/*MENU here*/}
                     <IconButton sx={Navbar ? style.iconContainerScroll : style.iconContainer}
